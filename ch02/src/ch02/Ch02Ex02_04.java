@@ -2,7 +2,7 @@ package ch02;
 
 import java.util.Scanner;
 
-public class Ch02Ex_04 {
+public class Ch02Ex02_04 {
 	public static void main(String[] args) {
 		System.out.println("입력");
 		Scanner scanner = new Scanner(System.in);
