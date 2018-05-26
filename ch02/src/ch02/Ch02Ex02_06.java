@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ch02Ex02_06 {
 	public static void main(String[] args) {
+		//1. 입력받기 위해 스캐너 객체 생성, System.in은 키보드
 		System.out.println("입력");
 		Scanner scanner = new Scanner(System.in);
 		String num = scanner.nextLine();
