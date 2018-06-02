@@ -6,10 +6,14 @@ public class Ch03Ex02_01 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		int i = scanner.nextInt();
-		int i2 = scanner.nextInt();
+		String[] numbers = scanner.nextLine().split(" ");
+		int num1 = Integer.parseInt(numbers[0]);
+		int num2 = Integer.parseInt(numbers[1]);
 		
-		System.out.printf("%d / %d=%d...%d", i, i2,
-				i / i2, i % i2);
+		int quotient = num1 / num2;
+		int remainder = num1 % num2;
+		
+		System.out.printf("%d / %d=%d...%d", num1, num2,
+				quotient, remainder);
 	}
 }
